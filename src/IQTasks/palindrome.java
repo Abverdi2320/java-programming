@@ -14,6 +14,6 @@ public class palindrome {
             }
         }
         System.out.println(isPalindrome);
-        System.out.println(isPalindrome);
+
     }
 }
