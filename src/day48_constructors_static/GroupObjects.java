@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 public class GroupObjects {
     public static void main(String[] args) {
-        Group cyber = new Group("CyberElephants");// dependency injection
+        Group group1 = new Group("CyberElephants");// dependency injection
         //print size of members
-        System.out.println(cyber.getMembers().size());
-        cyber.addMember("Eliw");
-        cyber.addMember("Rowka");
-        cyber.addMember("Mezi");
-        cyber.addMember("Qudret");
-        System.out.println(cyber.getMembers().size());
-        System.out.println(cyber);
+        System.out.println(group1.getMembers().size());
+        group1.addMember("Eliw");
+        group1.addMember("Rowka");
+        group1.addMember("Mezi");
+        group1.addMember("Qudret");
+        System.out.println(group1.getMembers().size());
+        System.out.println(group1);
 
         System.out.println();
 
@@ -25,6 +25,11 @@ public class GroupObjects {
         }else{
             System.out.println("Akrem is not group member");
         }
+
+        //remove some members from group1
+        group1.removeMember("Eliw");
+        group1.removeMember("Qudret");
+        System.out.println(group1);
 
     }
 }
