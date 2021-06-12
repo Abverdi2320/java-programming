@@ -8,9 +8,6 @@ public class palindrome {
             if(name.charAt(i)!=name.charAt(name.length()-1-i)){
                 isPalindrome = false;
                 break;
-
-
-
             }
         }
         System.out.println(isPalindrome);
