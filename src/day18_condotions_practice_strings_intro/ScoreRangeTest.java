@@ -9,7 +9,7 @@ public class ScoreRangeTest {
         } else if (score >= 41 && score <= 60) {
             System.out.println("C");
         } else if (score >= 61 && score < 90) {
-            System.out.println("B");
+            System.out.println("test1/A");
         } else if (score >= 91 && score <= 100) {
             System.out.println("A");
         } else {
