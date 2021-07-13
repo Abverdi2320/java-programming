@@ -8,9 +8,9 @@ public class _9_four_or_less_ArrayList {
        ArrayList<String> words = new ArrayList<>(Arrays.asList("tree","loop","cat","animal","shortcut"));
        ArrayList<String> container = new ArrayList<>();
 
-        for (int i = 0; i < words.size(); i++) {
-            if (words.get(i).length()<=4){
-                container.add(words.get(i));
+        for (String each : words) {
+            if (each.length()<=3){
+                container.add(each);
             }
         }
         System.out.println("container = " + container);

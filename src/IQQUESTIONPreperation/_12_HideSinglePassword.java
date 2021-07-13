@@ -13,7 +13,7 @@ public class _12_HideSinglePassword {
             temp+="*";
         }
         container=temp;
-        System.out.println("temp = " + temp);
+        System.out.println(container);
 
     }
 }
